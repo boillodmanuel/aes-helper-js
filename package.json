@@ -21,6 +21,6 @@
     "jasmine": "^2.0.1"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt"
   }
 }
