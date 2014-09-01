@@ -1,0 +1,23 @@
+{
+  "name": "aes-helper-js",
+  "version": "0.1.0",
+  "author": "Manuel Boillod",
+  "repository": "https://github.com/boillodmanuel/aes-helper-js",
+  "main": "./src/aes",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.2-5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jasmine-node": "^0.2.1",
+    "jasmine": "^2.0.1"
+  },
+  "scripts": {
+    "test": "jasmine-node tests/*.Spec.js"
+  }
+}
