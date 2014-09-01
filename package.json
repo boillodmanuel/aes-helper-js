@@ -19,6 +19,6 @@
     "jasmine": "^2.0.1"
   },
   "scripts": {
-    "test": "jasmine-node tests/*.Spec.js"
+    "test": "jasmine-node tests/*Spec.js"
   }
 }
