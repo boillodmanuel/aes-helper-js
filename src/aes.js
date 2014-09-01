@@ -1,3 +1,7 @@
+/*
+ * Utility class for encrypt or decrypt with AES encryption.
+ */
+
 "use strict";
 
 var CryptoJS = require("crypto-js");
@@ -17,7 +21,7 @@ var generateKey = function (passPhrase, salt, keySize, iterationCount) {
  *
  *  Usage:
  *  `
- *  var aesHelper = new AesHelper(passPhrase, salt, iv)
+ *  var aesHelper = new AesHelper(passPhrase, salt, iv);
  *  var encoded = aesHelper.encrypt("value");
  *  var decoded = aesHelper.decrypt(encoded);
  *  `
