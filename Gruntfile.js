@@ -34,6 +34,9 @@ module.exports = function (grunt) {
     },
 
     jasmine_node: {
+      coverage: {
+
+      },
       options: {
         forceExit: true,
         extensions: 'js',
@@ -64,6 +67,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-jasmine-node');
+  grunt.loadNpmTasks('grunt-jasmine-node-coverage');
   grunt.loadNpmTasks('grunt-bump');
 
   // Default task.
